@@ -59,37 +59,42 @@
         <div class="col-md-12">
           <h4 class="featurette-heading">Introduction to Computer Security</h4>
         </div>
-        <div class="col-md-6 col-xs-12"><span style="font-weight: bold;">Instructor:</span>
-          <a href="https://thefengs.com/wuchang">Wu-chang Feng</a><br>
-          <span style="font-weight: bold;">Class:</span> EB 92
-           <!--(Zoom <a href="https://pdx.zoom.us/j/82372326583">link</a>)-->
-          <br>
-          <span style="font-weight: bold;">Contact and discussion: </span>
+        <div class="col-md-6 col-xs-12">
+          <span style="font-weight: bold;">Location:</span>FAB 48 (MW 6:40pm-8:30pm)<br>
           <ul>
-            <li>DM @wuchang <a href="https://pdx-cs.slack.com/archives/C03CRD5G916">pdx-cs.slack.com</a>
-            </li>
-            <li>Post on channel <a
-                href="https://pdx-cs.slack.com/">#cs491_591_introsec</a>
-            </li>
-            <li>In-class questions/feedback anonymously <a href="https://bit.ly/sayat-wuchang">sayat.me</a> </li>
+            <li>Slack channel <a
+                href="https://app.slack.com/client/T0J0350JF/C08ELCJ9L11">#cs491introsec</a></li>
           </ul>
-          <span style="font-weight: bold;">Office hours: </span><a href="https://www.pdx.edu/computer-science/directory">here</a><br>
+          <span style="font-weight: bold;">Instructor:</span>
+          <a href="https://thefengs.com/wuchang">Wu-chang Feng</a><br>
+          <ul>
+            <li>DM @wuchang <a href="https://app.slack.com/client/T0J0350JF/C03CRD5G916">pdx-cs.slack.com</a>
+            <li>Leave anonymous comments/feedback <a href="https://bit.ly/sayat-wuchang">here</a> </li>
+            <li>Office Hours <a href="https://www.pdx.edu/computer-science/directory#faculty">here</a> (FAB 120-14)</li>
+          </ul>
           <span style="font-weight: bold;">TA: </span>
-          TBD<br>
-          <span style="font-weight: bold;">TA Office hours: </span>
-          TBD<br>
+          (at pdx.edu)<br>
+          <ul>
+            <li>Office Hours: in Fishbowl (FAB 120)</li>
+          </ul>
         </div>
         <div class="col-md-6 col-xs-12"> <span style="font-weight: bold;">Resources</span>
           <ul>
-            <li>Slides <a href="">Google Drive</a></li>
-            <li>Lecture screencasts on <a
-                href="https://media.pdx.edu/">MediaSpace</a></li>
-            <li>CS 201 Review <a
-                href="https://media.pdx.edu/channel/CSP/62663652">screencasts</a></li>
-            <li>Accounts on <a href="http://cat.pdx.edu/students.html">linuxlab</a>
+            <li>Slides <a href="https://drive.google.com/drive/folders/1VX9cd-gtca8_ycDaO_Dk4cSz45gRx6Be">Google Drive</a></li>
+            <li>Lecture <a href="">screencasts</a></li>
+            <li>CS 205 <a href="https://media.pdx.edu/channel/CSP/62663652">screencasts</a></li>
+            <li>Accounts on <a href="http://cat.pdx.edu">linuxlab</a>
               (FAB 88-09, 88-10)</li>
-            <li>Course <a href="https://thefengs.com/wuchang/cv/teaching.html">reviews</a></li>
+            <li>Course <a href="https://thefengs.com/wuchang/cv/teaching.html">student reviews</a></li>
           </ul>
+        </div>
+        <div class="col-md-12 col-xs-12"><span style="font-weight:
+            bold;">Course Description</span> This class provides an
+          overview of computer security intended for a broad audience.
+          Topics covered include basic security principles, access control, cryptography,
+          authentication, network security, host security, application
+          security, and privacy and anonymity with a focus on
+          how they are embodied in actual systems.
         </div>
       </div>
       <!-- End home Featurette -->
@@ -104,9 +109,8 @@
             <thead class="cf"><tr>
                 <th>Week</th>
                 <th>Topic</th>
-                <th>Slides</th>
                 <th>Labs</th>
-                <th>Due on Monday</th>
+                <th>Due on Sunday (11:59pm)</th>
               </tr>
             </thead>
             <tbody>
@@ -115,150 +119,172 @@
                 <td data-title="">Introduction<br>
                   Careers and Roles in Cybersecurity (CyberPDX)<br>
                   Principles and Approaches<br>
-                  Access Control and Authorization
+                  Access Control and Authorization<br>
+                  Linux<br>
+                  <ul>
+                    <li>Basics (files, commands)</li>
+                  </ul>
                 </td>
                 <td data-title="">
-                </td>
-                <td data-title="">
-                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb01">Notebook #1</a>
                 </td>
                 <td data-title="">
                 </td>
               </tr>
               <tr>
                 <td data-title="Wk">2</td>
-                <td data-title="">Linux and Linux security
+                <td data-title="">
                   <ul>
-                    <li>Linux files, processes, and commands</li>
-                    <li>Linux users, groups, and permissions</li>
+                    <li>Basics (command I/O, shell navigation, advanced files)</li>
+                    <li>Basics (regex, file utilities, network commands, processes)</li>
                   </ul>
                 </td>
                 <td data-title="">
-                </td>
-                <td data-title="">
-                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb02">Notebook #2</a>
+                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb01">Labs #1</a>
                 </td>
                 <td data-title="">
                 </td>
               </tr>
               <tr>
                 <td data-title="Wk">3</td>
-                <td data-title="">Applied cryptography
+                <td data-title="">
+                  <ul>
+                    <li>Access Control (permissions, setuid, sudo)</li>
+                  </ul>
+                  Applied cryptography
                   <ul>
                     <li>Encoding, Hash functions, Message Authentication Codes</li>
                     <li>Symmetric, Asymmetric (Public-Key) encryption</li>
-                    <li>Digital signatures, Certificates, Key exchange protocols, Perfect Forward Secrecy</li>
                   </ul>
                 </td>
                 <td data-title="">
+                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb02">Labs #2</a>
                 </td>
                 <td data-title="">
-                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb03">Notebook #3</a>
-                </td>
-                <td data-title="">
+                  Labs #1
                 </td>
               </tr>
               <tr>
                 <td data-title="Wk">4</td>
-                <td data-title="">Authentication
+                <td data-title="">
                   <ul>
-                    <li>Password security, Multi-factor authentication, Passwordless authentication</li>
-                    <li>Zero-trust networks and continuous authentication</li>
-                    <li>Social engineering (Spam, Phishing, Business Email Compromise, Scams, Fraud)</li>
+                    <li>Digital signatures, Certificates, Key exchange protocols, Perfect Forward Secrecy, Future Secrecy, Signal protocol</li>
+                  </ul>
+                  Authentication
+                  <ul>
+                    <li>Password security, Multi-factor authentication</li>
                   </ul>
                 </td>
                 <td data-title="">
+                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb03">Labs #3</a>
                 </td>
                 <td data-title="">
-                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb04">Notebook #4</a>
-                </td>
-                <td data-title="">
+                  Labs #2
                 </td>
               </tr>
               <tr>
                 <td data-title="Wk">5</td>
-                <td data-title="">Network security I
+                <td data-title="">
                   <ul>
-                    <li>Data-link layer (802.11, WPA2, ARP)</li>
-                    <li>Network layer (IP, CIDR, NAT, firewalls and filtering, network segmentation, VPNs, whois, network intelligence)</li>
+                    <li>FIDO/Passkeys (Passwordless authentication), Zero-trust and continuous authentication</li>
+                    <li>Social engineering (Spam, Phishing, Business Email Compromise, Scams, Fraud)</li>
+                  </ul>
+                  Network security I
+                  <ul>
+                    <li>Data-link layer (802.11, WPA2)</li>
                   </ul>
                 </td>
                 <td data-title="">
+                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb04">Labs #4</a>
                 </td>
                 <td data-title="">
-                </td>
-                <td data-title="">
+                  Labs #3
                 </td>
               </tr>
               <tr>
                 <td data-title="Wk">6</td>
-                <td data-title="">Network security II
+                <td data-title="">
                   <ul>
-                    <li>Transport layer (TCP, TLS, certificate authorities and transparency, certificate revocation)</li>
-                    <li>Application layer: DNS security (DNS, DNSSEC, DoH, DoT, Oblivious DNS)</li>
-                    <li>Application layer: E-mail security (SMTP/IMAP/POP over TLS, DKIM, SPF, DMARC)</li>
+                    <li>Data-link layer (ARP), Network layer (IP, CIDR, Sniffing, Spoofing, Hijacking)</li>
+                    <li>Network layer (DDoS, IPSec/VPNs, firewalls and filtering, network segmentation, network intelligence, ICMP)</li>
                   </ul>
                 </td>
                 <td data-title="">
+                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb05">Labs #5</a>
                 </td>
                 <td data-title="">
-                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb05">Notebook #5</a>
-                </td>
-                <td data-title="">
+                Labs #4
                 </td>
               </tr>
               <tr>
                 <td data-title="Wk">7</td>
-                <td data-title="">Host security
+                <td data-title="">Network security II
                   <ul>
-                    <li>Privilege escalation, TOCTOU, race conditions,Malicious code (worms, viruses, rootkits)</li>
-                    <li>IDS/IPS/EDR, signature detection, anomaly detection, blocklisting and allowlisting, host forensics</li>
-                    <li>Software signing, Virtualization and isolation techniques, File system backup and encryption</li>
+                    <li>Transport layer (TCP, TLS, certificate authorities and transparency, certificate revocation), Application layer: DNS security (DNS, DNSSEC)</li>
+                    <li>Application layer: DNS security (DoH, DoT, Oblivious DNS), E-mail security (SMTP/IMAP/POP over TLS, DKIM, SPF, DMARC)</li>
+                  </ul>
+                  Host security
+                  <ul>
+                    <li>Host attacks (Initial access, Privilege escalation)</li>
                   </ul>
                 </td>
                 <td data-title="">
-                </td>
-                <td data-title="">
-                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb06">Notebook #6</a>
                 </td>
                 <td data-title="">
                 </td>
               </tr>
               <tr>
                 <td data-title="Wk">8</td>
-                <td data-title="">Application security
+                <td data-title="">
+                  <ul>
+                    <li>Host attacks (Internal recon, Lateral movement, Persistence, Impact)</li>
+                    <li>Host defenses (IDS/IPS/EDR, signature detection, anomaly detection, blocklisting and allowlisting, Software signing, Virtualization and isolation techniques, File system backup and encryption)</li>
+                  </ul>
+                  Application security
                   <ul>
                     <li>DevSecOps</li>
-                    <li>Programming language and CPU security, Memory corruption, Return-oriented Programming, Canaries, ASLR, Control-Flow Integrity</li>
-                    <li>Supply-chain security</li>
                   </ul>
                 </td>
                 <td data-title="">
+                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb06">Labs #6</a>
                 </td>
                 <td data-title="">
-                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb07">Notebook #7</a>
-                </td>
-                <td data-title="">
+                Labs #5
                 </td>
               </tr>
               <tr>
                 <td data-title="Wk">9</td>
-                <td data-title="">Privacy and anonymity security
+                <td data-title="">
                   <ul>
-                    <li>Privacy (OSINT, Do-not-track, Right to forget, Browser profiles, Cookies and super-cookies)</li>
-                    <li>Anonymity (Tor, Onion services, Dark Web, SecureDrop, Signal and end-to-end encryption)</li>
+                    <li>Programming language and CPU security, Memory corruption, Return-oriented Programming, Canaries, ASLR, Control-Flow Integrity</li>
                   </ul>
                 </td>
                 <td data-title="">
+                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb07">Labs #7</a>
                 </td>
                 <td data-title="">
-                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb08">Notebook #8</a>
-                </td>
-                <td data-title="">
+                Labs #6
                 </td>
               </tr>
               <tr>
                 <td data-title="Wk">10</td>
+                <td data-title="">
+                  <ul>
+                    <li>Supply-chain security</li>
+                  </ul>
+                  Privacy and anonymity security
+                  <ul>
+                    <li>Privacy (OSINT, Right to forget, Browser profiles, Cookies and super-cookies)</li>
+                    <li>Anonymity (Tor, Onion services, Dark Web)</li>
+                  </ul>
+                </td>
+                <td data-title="">
+                  <a href="https://codelabs.cs.pdx.edu/cs491/?cat=Nb08">Final project</a>
+                </td>
+                <td data-title="">
+                </td>
+              </tr>
+              <!--<tr>
+                <td data-title="Wk">Extra</td>
                 <td data-title="">Frameworks, policy, and law
                   <ul>
                     <li>Mitre Att&amp;ck Framework, CIS controls</li>
@@ -271,18 +297,17 @@
                 </td>
                 <td data-title="">
                 </td>
-                <td data-title="">
-                </td>
-              </tr>
+              </tr>-->
               <tr>
                 <td data-title="Wk">Finals week</td>
-                <td data-title="">Final exam, in-person, no exceptions (Thurs, Dec 9 @ 8am)
+                <td data-title="">Final project screencast
+<!--Final exam, in-person, no exceptions (Thurs, Dec 8 @ 8am)-->
                 </td>
                 <td data-title="">
+<!--Sample <a href="SampleFinal.pdf">questions</a>-->
                 </td>
                 <td data-title="">
-                </td>
-                <td data-title="">
+                Labs #7
                 </td>
               </tr>
             </tbody>
@@ -296,21 +321,35 @@
         <div class="col-md-12">
           <h4 class="featurette-heading">Assignments</h4>
         </div>
-        <div class="col-md-12 col-xs-12">
-          As part of the lab work, you will maintain lab notebooks (a
-          Google Doc, Microsoft Office, or LibreOffice file) that
-          will contain your write-ups of each lab. The write-up should
-          include answers to questions asked and screenshots of the
-          completed work (via gnome-screenshot, gimp, Print Screen,
-          etc.). The notebook will be graded based upon thoroughness and
-          clarity of the write-ups. While you are encouraged to work
-          together on labs, each student should submit an individual
-          notebook each week. Notebooks must be submitted in a Gitlab
-          repository shared out to the instructor and TA. <br>
-          <br>
+        <div class="col-md-12 col-xs-12"> <span style="font-weight: bold;">Labs and notebook</span><br>
+          Lab assignments will be given each class covering the course material. You will perform each one, while maintaining a lab notebook in a Google Doc that documents your progress via screenshots with your OdinID in them.  The notebook should also include answers to any questions in the labs.&nbsp;  Notebooks should be exported as a PDF file and include a table of contents generated by Google Docs.  Submission will be done via adding, committing and pushing the file to your private git repository. Use the following naming convention to submit your notebooks.<br>
+          <ul>
+            <li><font face="Courier">notebooks&sol;&lt;labs_number&gt;.pdf</font>
+               e.g. <font face="Courier">notebooks&sol;Labs1.pdf</font><br>
+            </li>
+          </ul>
+The notebook will be graded based upon the following rubric:
+          <ul>
+            <li>Neatness and organization</li>
+            <li>Completeness</li>
+            <li>Inclusion of OdinID or project identifier in screenshots</li>
+          </ul>
         </div>
       </div>
       <!-- End assignments Featurette -->
+      <!-- Begin late Featurette -->
+      <hr class="featurette-divider">
+      <div class="featurette lead" id="late">
+        <div class="col-md-12">
+          <h4 class="featurette-heading">Late work</h4>
+        </div>
+        <div class="col-md-12 col-xs-12">
+          Always turn in what you have done on-time.  Always turn in what you have done on-time.  All late work submitted will have a 20% deduction. If you submit any late work, it will be graded at the end of the last week of class. Late work must be placed in the <font face="Courier">late</font> directory in your GitLab repository and named according to the lab number. Use the following naming convention for late work: <font face="Courier">late&sol;LabsX.pdf</font>.  For example, a late addendum to <font face="Courier">Labs1.pdf</font> should be submitted as
+<font face="Courier">late&sol;Labs1.pdf</font>.
+Late work will not be graded beyond the last week of class.<br><br>
+        </div>
+      </div>
+      <!-- End late Featurette -->
       <!-- Begin objectives Featurette -->
       <hr class="featurette-divider">
       <div class="featurette lead" id="objectives">
@@ -318,12 +357,11 @@
           <h4 class="featurette-heading">Course objectives</h4>
           <ul>
             <li>Explain the concepts of confidentiality, availability and integrity.</li>
-            <li>Explain standard models of confidentiality and integrity (such as Bell LaPadula and Biba)</li>
             <li>Explain standard access control mechanisms (mandatory, discretionary, originator controlled) and how they can be used in conjunction with security models.</li>
             <li>Describe use of cryptographic algorithms in various secure protocols including digital signatures, hash functions, symmetric key, and public key cryptography.</li>
-            <li>Explain various forms of authentication and multi-factor authentication</li>
-            <li>Explain security issues in network, host, information, software, and application security and how they are addressed</li>
-            <li>Explain security issues involving people and how social engineering attacks can be addressed.</li>
+            <li>Explain various forms of authentication and identify social engineering attacks.</li>
+            <li>Explain security issues in networks, hosts, and applications and how they can be addressed</li>
+            <li>Identify privacy issues in computing systems and how they can be addressed</li>
           </ul>
         </div>
       </div>
@@ -334,7 +372,7 @@
         <div class="col-md-12">
           <h4 class="featurette-heading">Policies</h4>
         </div>
-        <div class="col-md-6 col-xs-6"><span style="font-weight: bold;">Grading</span>
+        <div class="col-md-4 col-xs-12"><span style="font-weight: bold;">Grading</span>
           <section id="no-more-tables">
             <table class="table-bordered table-striped table-condensed
               cf">
@@ -344,18 +382,21 @@
                   <td data-title="">5%</td>
                 </tr>
                 <tr>
-                  <td data-title="">Lab notebook</td>
-                  <td data-title="">75%</td>
+                  <td data-title="">Lab notebooks</td>
+                  <td data-title="">65%</td>
                 </tr>
                 <tr>
-                  <td data-title="">Final exam</td>
-                  <td data-title="">20%</td>
+                  <td data-title="">Final project</td>
+                  <td data-title="">30%</td>
                 </tr>
               </tbody>
             </table>
           </section>
         </div>
-        <div class="col-md-6 col-xs-12"><span style="font-weight: bold;">Academic misconduct</span><br>
+        <div class="col-md-4 col-xs-12"><span style="font-weight: bold;">Attendance and participation</span><br>
+          Attendance is required and will be taken each class.  If you miss class, extra credit will be given back for participation in the Slack channel. You are expected to follow this <a href="https://www.mozilla.org/en-US/about/governance/policies/participation/"> code of conduct</a> when communicating.
+        </div>
+        <div class="col-md-4 col-xs-12"><span style="font-weight: bold;">Academic misconduct</span><br>
           <ul>
             <li>Includes allowing another student to copy your work
               unless specifically allowed by the instructor.</li>
